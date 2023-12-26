@@ -8,7 +8,6 @@ header {
     height: var(--menu-height);
     display: flex;
     justify-content: center;
-    
 }
 header .container {
     background-color: gray;
@@ -18,6 +17,7 @@ header .container {
     padding: 0 var(--menu-height);
     align-items: center;
     height: var(--menu-height);
+    border-radius: 0 0 30px 30px;
 }
 
 header .container .logo img {
@@ -36,18 +36,9 @@ header .container .menubar ul li {
     font-size: 26px;
     font-weight: bold;
     position: relative;
-
+    cursor: default;
+    transition: .4s;
 }
-header .container .menubar ul li::before {
-    content: '';
-    position: absolute;
-    top: 100%;
-    height: 3px;
-    background-color: black;
-    width: 0;
-    transition: .3s;
-
-}
-header .container .menubar ul li:hover::before {
-    width: 100%;
+header .container .menubar ul li:hover {
+    color: aqua;
 }
