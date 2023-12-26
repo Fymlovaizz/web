@@ -1,0 +1,53 @@
+:root {
+    --menu-height: 100px
+}
+
+
+header {
+    width: 100%;
+    height: var(--menu-height);
+    display: flex;
+    justify-content: center;
+    
+}
+header .container {
+    background-color: gray;
+    width: min(1200px, 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 var(--menu-height);
+    align-items: center;
+    height: var(--menu-height);
+}
+
+header .container .logo img {
+    height: var(--menu-height);
+}
+header .container .menubar {
+    width: 70%;
+}
+header .container .menubar ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .menubar ul li {
+    list-style: none;
+    font-size: 26px;
+    font-weight: bold;
+    position: relative;
+
+}
+header .container .menubar ul li::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    height: 3px;
+    background-color: black;
+    width: 0;
+    transition: .3s;
+
+}
+header .container .menubar ul li:hover::before {
+    width: 100%;
+}
