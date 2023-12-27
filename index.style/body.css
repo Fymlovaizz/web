@@ -1,4 +1,4 @@
 body {
-    background-color: rgb(214, 213, 213);
+    background-color: var(--background-color-oty);
     height: 10000px;
 }

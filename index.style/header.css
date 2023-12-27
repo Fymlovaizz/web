@@ -1,10 +1,3 @@
-:root {
-    --nav-height: 70px;
-    --dark-color-oty: #d14b0d;
-    --light-color-oty: #ffd5a5;
-    --font-color-oty: #ec773c;
-}
-/* color-oty : color of the year*/
 
 header {
     width: 100%;
@@ -33,6 +26,7 @@ header .container .logo img {
 header .container .logo img:hover {
     transition: .2s;
     filter: invert(30%) sepia(73%) saturate(2915%) hue-rotate(8deg) brightness(92%) contrast(90%);
+    -webkit-filter: invert(30%) sepia(73%) saturate(2915%) hue-rotate(8deg) brightness(92%) contrast(90%);
 }
 
 header .container .nav-bar {
