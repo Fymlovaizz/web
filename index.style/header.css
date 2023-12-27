@@ -1,5 +1,5 @@
 :root {
-    --menu-height: 70px;
+    --nav-height: 70px;
     --dark-color-oty: #d14b0d;
     --light-color-oty: #ffd5a5;
     --font-color-oty: #ec773c;
@@ -8,7 +8,7 @@
 
 header {
     width: 100%;
-    height: var(--menu-height);
+    height: var(--nav-height);
     display: flex;
     justify-content: center;
     top: 0;
@@ -20,30 +20,30 @@ header .container {
     width: min(1200px, 100%);
     display: flex;
     justify-content: space-between;
-    padding: 0 var(--menu-height);
+    padding: 0 var(--nav-height);
     align-items: center;
-    height: var(--menu-height);
+    height: var(--nav-height);
     border-radius: 0 0 30px 30px;
 }
 
 header .container .logo img {
-    height: var(--menu-height);
+    height: var(--nav-height);
 }
 
 header .container .logo img:hover {
-    transition: .4s;
-    filter: invert(26%) sepia(89%) saturate(1386%) hue-rotate(357deg) brightness(109%) contrast(94%);
+    transition: .2s;
+    filter: invert(30%) sepia(73%) saturate(2915%) hue-rotate(8deg) brightness(92%) contrast(90%);
 }
 
-header .container .menubar {
+header .container .nav-bar {
     width: 70%;
 }
-header .container .menubar ul {
+header .container .nav-bar ul {
     display: flex;
     justify-content: space-between;
 }
 
-header .container .menubar ul li {
+header .container .nav-bar ul li {
     list-style: none;
     font-size: 24px;
     font-weight: bold;
@@ -52,6 +52,6 @@ header .container .menubar ul li {
     transition: .4s;
     color: var(--font-color-oty);
 }
-header .container .menubar ul li:hover {
+header .container .nav-bar ul li:hover {
     color: var(--dark-color-oty);
 }
