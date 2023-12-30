@@ -3,6 +3,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 :root {
     --nav-height: 70px;
     --dark-color-oty: #d14b0d;
@@ -10,4 +11,5 @@
     --font-color-oty: #ec773c;
     --background-color-oty: #fff3e7;
 }
+
 /* color-oty : color of the year*/
